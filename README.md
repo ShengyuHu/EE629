@@ -1,9 +1,13 @@
 # EE629-IOT
 This repository is for  weekly reports, codes and projects.
+
 #Weekly Report 0
 [2020-08-31] Take the first class of Internet of Things and have a preliminary understanding ot this course.
+
 [2020-09-01] Review the syllabus and learn about the IEEE writing style.
+
 [2020-09-03] Set up the project repo and github pages.
+
 [2020-09-05] Read the first and second chapter of the book and prepare for next week's study.
 
 #Weekly Report 1
