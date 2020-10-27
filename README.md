@@ -50,3 +50,13 @@ Weekly Report 5 (10.12-10.18)
 [2020-10-15] Read and install the Alpine Linux on my VirtualBox, install Gnome Desktop Environment and docker.
 
 [2020-10-17] Learn about Crossbar.io and Paho, try to figure out the principle of them.
+
+Weekly Report 6 (10.19-10.25)
+
+[2020-10-20] Summarize previous labs and codes, review what have learned in the class.
+
+[2020-10-22] Try to solve some Python problems in order to improve my Python programming ability.
+
+[2020-10-24] Learn about Alternative Devices and try to understand the use of them.
+
+
