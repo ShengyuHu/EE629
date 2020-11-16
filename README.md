@@ -1,6 +1,8 @@
 # EE629-IOT
 This repository is for  weekly reports, codes and projects.
 
+Final project: Recommendation system for instacart.
+
 Weekly Report 0 (09.07-09.13)
 
 [2020-08-31] Take the first class of Internet of Things and have a preliminary understanding ot this course.
@@ -59,4 +61,27 @@ Weekly Report 6 (10.19-10.25)
 
 [2020-10-24] Learn about Alternative Devices and try to understand the use of them.
 
+Weekly Report 7 (10.26-11.01)
+
+[2020-10-27] Summarize previous labs and codes, review what have learned in the class.
+
+[2020-10-29] Study some related projects and determine the project to be completed.
+
+[2020-10-31] Learn about cloud platforms nd try to understand the use of them.
+
+Weekly Report 8 (11.02-11.08)
+
+[2020-11-03] Summarize previous labs and codes, review what have learned in the class.
+
+[2020-11-05] Analyze the data to be used in the project and write the code about them.
+
+[2020-11-07] Learn about data analysis and analyze some concrete examples.
+
+Weekly Report 9 (11.09-11.15)
+
+[2020-11-10] Review what have learned in the class and slove previous problems.
+
+[2020-11-12] Write the code about final project and run them.
+
+[2020-11-14] Learn about NETCONF and YANG and undertand the use of them.
 
