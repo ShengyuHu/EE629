@@ -85,3 +85,29 @@ Weekly Report 9 (11.09-11.15)
 
 [2020-11-14] Learn about NETCONF and YANG and undertand the use of them.
 
+Weekly Report 10 (11.16-11.22)
+
+[2020-11-17] Review what have learned in the class and learn from other people"s project.
+
+[2020-11-19] Write the code about final project and run them.
+
+[2020-11-21] Learn about Blockchain and undertand the use of them.
+
+Weekly Report 11 (11.23-11.29)
+
+[2020-11-24] Review what have learned in the class and learn from other people"s project.
+
+[2020-11-26] Write the introduction part of the final project.
+
+[2020-11-28] Summarize the knowledge learned in class and solve the previously unclear parts.
+
+Weekly Report 12 (11.30-12.6)
+
+[2020-12-01] Understand other people's projects and learn its advantages.
+
+[2020-12-03] Analyze the database used in the final project.
+
+[2020-12-05] Analyze the final project data and write code about it.
+
+
+
