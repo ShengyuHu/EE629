@@ -4,31 +4,17 @@
 
 Recommendation systems have played a crucial way in redefining our modern lives in many ways through solving the problem of information overload by searching through a large volume of dynamically generated content to provide personalized services. It is most commonly recognized for video and music services, product recommenders and content recommenders for social media platforms.
 
-During the special period of global pandemic, groceries stores are experiencing an exponential 
-growth in customer orders. Instacart, one of the most popular grocery delivery services 
-providers in the United States and Canada, has expended its shopper network by 250% in order 
-to meet the increasing customer demand by hiring 0.3 million new full-service shoppers. 
-Following its business model requires the need of recommender system  to make a user’s 
-experience better and in turn encourage them to return purchasing with Instacart.
+During the special period of global pandemic, groceries stores are experiencing an exponential growth in customer orders. Instacart, one of the most popular grocery delivery services providers in the United States and Canada, has expended its shopper network by 250% in order to meet the increasing customer demand by hiring 0.3 million new full-service shoppers. Following its business model requires the need of recommender system  to make a user’s experience better and in turn encourage them to return purchasing with Instacart.
 
 ## Objectives
 
-Instacart uses the order data from the customers to be able to understand their purchase 
-patterns. It uses the data to learn about the products a user will buy again or add to their cart
-next during a particular shopping session. The project is proposed to investigate user behaviors 
-and  end up with recommending the best possible products for each user through collaborate 
-filtering technique association rule mining. Behavior-related problems are going to be solved 
-such as which department or aisle will have the greatest number of orders or how frequent a 
-customer places the order on the Instacart app.
+Instacart uses the order data from the customers to be able to understand their purchase patterns. It uses the data to learn about the products a user will buy again or add to their cart next during a particular shopping session. The project is proposed to investigate user behaviors and end up with recommending the best possible products for each user through collaborate filtering technique association rule mining. Behavior-related problems are going to be solved such as which department or aisle will have the greatest number of orders or how frequent a customer places the order on the Instacart app.
 
 ## Dataset
 
 [Data Source](https://www.kaggle.com/c/instacart-market-basket-analysis/data)
 
-The Instacart dataset provides over 3 million grocery orders in 2017 by more than 200,000
-users, each with 4 to 100 orders. Information contain products details and their corresponding
-departments and aisles. Additional characteristics also include the time of day of purchase and
-if the product has been reordered by customer before. There are no missing values or outliers.
+The Instacart dataset provides over 3 million grocery orders in 2017 by more than 200,000 users, each with 4 to 100 orders. Information contain products details and their corresponding departments and aisles. Additional characteristics also include the time of day of purchase and if the product has been reordered by customer before. There are no missing values or outliers.
 
 ## Exploratory Data Analysis
 
