@@ -97,7 +97,8 @@ highest in customer preferences.
 
 * Recommended products for ‘chocolate sandwich cookies
 ![12.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/12.png)
- 
+ U2U Recommender
+
 
 
 
