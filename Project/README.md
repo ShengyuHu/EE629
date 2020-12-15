@@ -42,8 +42,9 @@ Then users are clustered through PCA and K-means clustering. I used the elbow me
 dendrogram to figure out an optimal number of clusters. It turns out to be anywhere between 3 
 and 5. Final decision was made on 5 clusters. From now on, customer behaviors can also be 
 analyzed on different clusters. 
+![1.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/1.png)
 
-* Order distribution by User (Appendix B)
+* Order distribution by User 
 
 The maximum number of orders per user ID is 99. This is an exponential distribution, intuitively 
 this make sense. The average number of orders is 17 per user and 50% of the customer order 
@@ -51,6 +52,7 @@ less than 10 times. Assuming everything is equal, the customer purchasing behavi
 optimal if measured by number of repeated purchases. Perhaps marketing can boost their 
 promotional efforts towards a subset of customers who order less than 16 times but more than 
 9 times, in a hope to close the gap.
+
 
 * Order distribution by Department (Appendix C)
 
