@@ -109,5 +109,12 @@ Final project: **Recommendation system for Instacart**.
 
 [2020-12-05] Analyze the final project data and write code about it.
 
+## Weekly Report 13 (12.07-12.14)
+
+[2020-12-08] Write the code about final projet.
+
+[2020-12-10] Write what i have done in GitHub and show contributions.
+
+[2020-12-12] Review the contents of the project and complete the modifications.
 
 
