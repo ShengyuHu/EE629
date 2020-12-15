@@ -68,6 +68,15 @@ transactions.
 In general, orders are placed everyday mostly between 10AM - 4PM. Sunday and Monday are 
 the busiest day for order placement. The hottest timing for order placement is Sunday between
 1 - 3PM and Monday between 9 - 11AM. Wednesday and Thursday are less busy for order placement.
+![5.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/5.png)
+
+* Re-order frequency by Cluster
+
+There seems to be a capped variable (30 days). The most common number of days between
+orders is 11 days. Users in Cluster 1 and 2 tend to have a wider time gap between purchases. 
+Users in cluster 3 and 4 are the most recurrent buyers.
+
+
 
 ## Recommender
 
