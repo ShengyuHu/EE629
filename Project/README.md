@@ -91,6 +91,7 @@ Clearly, fresh fruits and veggies are mostly purchased and most of the popular p
 organic. There are no obvious differences of the most popular products among different 
 clusters. Among all  products, bananas,  strawberries, baby spinach and avocado rank the 
 highest in customer preferences.
+![9.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/9.png)
 
 
 
