@@ -1,4 +1,4 @@
-#Recommendation system for Instacart
+# Recommendation system for Instacart
 
 ## Introduction 
 
@@ -27,7 +27,7 @@ customer places the order on the Instacart app.
 
 ## Dataset
 
-[Source !](https://www.kaggle.com/c/instacart-market-basket-analysis/data)
+[Source](https://www.kaggle.com/c/instacart-market-basket-analysis/data)
 The Instacart dataset provides over 3 million grocery orders in 2017 by more than 200,000
 users, each with 4 to 100 orders. Information contain products details and their corresponding
 departments and aisles. Additional characteristics also include the time of day of purchase and
