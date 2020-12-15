@@ -1,7 +1,7 @@
 # EE629-IOT
 This repository is for  weekly reports, codes and projects.
 
-Final project:**Recommendation system for Instacart**.
+Final project: **Recommendation system for Instacart**.
 
 ## Weekly Report 0 (09.07-09.13)
 
