@@ -27,15 +27,16 @@ customer places the order on the Instacart app.
 
 ## Dataset
 
-[Source](https://www.kaggle.com/c/instacart-market-basket-analysis/data)
+[Data Source](https://www.kaggle.com/c/instacart-market-basket-analysis/data)
+
 The Instacart dataset provides over 3 million grocery orders in 2017 by more than 200,000
 users, each with 4 to 100 orders. Information contain products details and their corresponding
 departments and aisles. Additional characteristics also include the time of day of purchase and
 if the product has been reordered by customer before. There are no missing values or outliers.
 
-Recommender
+## Recommender
 
-A. Product Bundle
+### A. Product Bundle
 
 It usually happens that some products are more often bought together than others. Product 
 bundle can be used to predict which product the customer will buy next. Once a customer adds
@@ -47,7 +48,7 @@ names in the same order. Take chocolate sandwich cookies for example, a recommen
 a size of either 5 or 15 (Appendix H). If a customer adds the cookies into his basket, then 
 reduced fat milk or semi-sweet chocolate morsels will be recommended to him. 
 
-B. Neighborhood-based Method
+### B. Neighborhood-based Method
 
 Purchases of all users are split into training and testing with a test size of 0.2. Prior purchases 
 are used to build utility matrix, with products as rows, users as columns and entries as purchase 
@@ -57,7 +58,7 @@ are generated based on cosine similarities, and the similarity is tested through
 purchasing history. Top similar users of User ID 1 give a recall value of 0.333 indicating a high 
 similarity. Product recommendations are then generated.
 
-C. Latent-factor Method
+### C. Latent-factor Method
 
 Since the utility matrix is almost fully sparse, it will uncover latent features through matrix
 factorization. SVD factorization is applied and I sticked with the example user ID 1. The utility 
