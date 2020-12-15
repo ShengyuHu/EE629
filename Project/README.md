@@ -92,6 +92,7 @@ organic. There are no obvious differences of the most popular products among dif
 clusters. Among all  products, bananas,  strawberries, baby spinach and avocado rank the 
 highest in customer preferences.
 ![9.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/9.png)
+![10.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/10.png)
 
 
 
