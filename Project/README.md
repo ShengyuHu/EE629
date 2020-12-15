@@ -42,6 +42,7 @@ Then users are clustered through PCA and K-means clustering. I used the elbow me
 dendrogram to figure out an optimal number of clusters. It turns out to be anywhere between 3 
 and 5. Final decision was made on 5 clusters. From now on, customer behaviors can also be 
 analyzed on different clusters. 
+
 ![1.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/1.png)
 
 * Order distribution by User 
@@ -52,15 +53,17 @@ less than 10 times. Assuming everything is equal, the customer purchasing behavi
 optimal if measured by number of repeated purchases. Perhaps marketing can boost their 
 promotional efforts towards a subset of customers who order less than 16 times but more than 
 9 times, in a hope to close the gap.
-![2.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/2.png)
 
+![2.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/2.png)
 
 * Order distribution by Department 
 
 Some departments have infrequent sales, which could help eliminating some of the 
 departments from recommending. Produce, snacks and dairy eggs contribute to almost 50% 
 transactions.
+
 ![3.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/3.png)
+
 ![4.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/4.png)
 
 * Order distribution by Week/Day/Hour
@@ -68,6 +71,7 @@ transactions.
 In general, orders are placed everyday mostly between 10AM - 4PM. Sunday and Monday are 
 the busiest day for order placement. The hottest timing for order placement is Sunday between
 1 - 3PM and Monday between 9 - 11AM. Wednesday and Thursday are less busy for order placement.
+
 ![5.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/5.png)
 
 * Re-order frequency by Cluster
@@ -75,7 +79,9 @@ the busiest day for order placement. The hottest timing for order placement is S
 There seems to be a capped variable (30 days). The most common number of days between
 orders is 11 days. Users in Cluster 1 and 2 tend to have a wider time gap between purchases. 
 Users in cluster 3 and 4 are the most recurrent buyers.
+
 ![6.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/6.png)
+
 ![7.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/7.png)
 
 * Re-order ratio by Department
@@ -83,6 +89,7 @@ Users in cluster 3 and 4 are the most recurrent buyers.
 As expected, produce and diary eggs enjoyed the highest re-order ratio whereas pantry was 
 experiencing the worst situation. Although snack and beverage have similar proportion of order 
 sales, beverage has a positive re-order ratio while snack has a negative one.
+
 ![8.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/8.png)
 
 * Top Product/Department/Aisle
@@ -91,8 +98,11 @@ Clearly, fresh fruits and veggies are mostly purchased and most of the popular p
 organic. There are no obvious differences of the most popular products among different 
 clusters. Among all  products, bananas,  strawberries, baby spinach and avocado rank the 
 highest in customer preferences.
+
 ![9.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/9.png)
+
 ![10.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/10.png)
+
 ![11.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/11.png)
 
 ## Recommender
@@ -102,13 +112,16 @@ highest in customer preferences.
 It usually happens that some products are more often bought together than others. Product 
 bundle can be used to predict which product the customer will buy next. Once a customer adds
 one product to cart, a list of recommended products will be offered to be bought together. 
+
 ![13.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/13.png)
+
 Not surprisingly, bananas are bought mostly with avocado, apples and strawberries. Then a
 simple recommender is generated based on frequencies in the bundles by firstly sorting the
 bigram frequencies in descending order and then returning merely the corresponding product 
 names in the same order. Take chocolate sandwich cookies for example, a recommending list in 
 a size of either 5 or 15 . If a customer adds the cookies into his basket, then 
 reduced fat milk or semi-sweet chocolate morsels will be recommended to him. 
+
 ![12.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/12.png)
 
 ### B. Neighborhood-based Method
@@ -120,6 +133,7 @@ It is a user-to-user recommender. After figuring out the cluster he belongs to, 
 are generated based on cosine similarities, and the similarity is tested through checking user 
 purchasing history. Top similar users of User ID 1 give a recall value of 0.333 indicating a high 
 similarity. Product recommendations are then generated.
+
 ![17.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/17.png)
 
 ### C. Latent-factor Method
@@ -129,12 +143,15 @@ factorization. SVD factorization is applied and I sticked with the example user 
 matrix is factorized using SciPy’s SVD. The list of recommended products is generated but it 
 may contain products that already in the user’s basket which needs to be removed before the 
 final recommendation.
+
 ![14.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/14.png)
+
 ![18.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/18.png)
 
 The recall for intersection of U2U and SVD is around 9%. Nearly 1 in 10 products recommended 
 by each system is recommended too by the other for each user. For User 4157 as listed in the 
 above output table, product 47059 is indeed repeated in both recommendations.
+
 ![15.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/15.png)
 
 Example recommendations for User ID 1 using SVD are illustrated above. However, SVD may
@@ -144,6 +161,7 @@ purchased by a user, low values in the utility matrix or a user not buying a pro
 reated as dislike. As the Instacart dataset consists only of implicit feedback in the form of past 
 and current grocery orders, there is a need to robust the approach with, for example,
 Alternating Least Squares.
+
 ![16.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/16.png)
 
 Example recommendations for user ID 17 is shown above. There are a few similarities between 
@@ -167,4 +185,10 @@ other models because the linear running time is optimized under the settings.
 
 ## Discussion & Futher Works
 
-It is an quite interesting area to explore. The evaluation of the recommender systems, even a simple SVD model, performs better than just recommending the popular products. Personalized recommendations based on purchase history are more indicative of Instacart user purchase patterns. However, if new updated data with outliers or missing values are introduced, there will be a cold start problem. In this case, hybrid recommender with, for example, content-based models or deep neural networks will definitely product a better outcome. The ‘Banana Mystery’ is also another topic to discuss for the future works.
+It is an quite interesting area to explore. The evaluation of the recommender systems, even a
+simple SVD model, performs better than just recommending the popular products. Personalized 
+recommendations based on purchase history are more indicative of Instacart user purchase 
+patterns. However, if new updated data with outliers or missing values are introduced, there 
+will be a cold start problem. In this case, hybrid recommender with, for example, content-based 
+models or deep neural networks will definitely product a better outcome. The ‘Banana Mystery’ 
+is also another topic to discuss for the future works.
