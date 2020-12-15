@@ -61,7 +61,13 @@ Some departments have infrequent sales, which could help eliminating some of the
 departments from recommending. Produce, snacks and dairy eggs contribute to almost 50% 
 transactions.
 ![3.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/3.png)
+![4.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/4.png)
 
+* Order distribution by Week/Day/Hour
+
+In general, orders are placed everyday mostly between 10AM - 4PM. Sunday and Monday are 
+the busiest day for order placement. The hottest timing for order placement is Sunday between
+1 - 3PM and Monday between 9 - 11AM. Wednesday and Thursday are less busy for order placement.
 
 ## Recommender
 
