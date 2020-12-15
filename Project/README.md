@@ -97,10 +97,6 @@ highest in customer preferences.
 
 * Recommended products for ‘chocolate sandwich cookies
 ![12.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/12.png)
- U2U Recommender
-
-
-
 
 ## Recommender
 
@@ -109,6 +105,7 @@ highest in customer preferences.
 It usually happens that some products are more often bought together than others. Product 
 bundle can be used to predict which product the customer will buy next. Once a customer adds
 one product to cart, a list of recommended products will be offered to be bought together. 
+
 Not surprisingly, bananas are bought mostly with avocado, apples and strawberries. Then a
 simple recommender is generated based on frequencies in the bundles by firstly sorting the
 bigram frequencies in descending order and then returning merely the corresponding product 
