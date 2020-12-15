@@ -129,6 +129,8 @@ factorization. SVD factorization is applied and I sticked with the example user 
 matrix is factorized using SciPy’s SVD. The list of recommended products is generated but it 
 may contain products that already in the user’s basket which needs to be removed before the 
 final recommendation.
+![14.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/14.png)
+
 
 The recall for intersection of U2U and SVD is around 9%. Nearly 1 in 10 products recommended 
 by each system is recommended too by the other for each user. For User 4157 as listed in the 
