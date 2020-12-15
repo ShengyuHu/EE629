@@ -2,11 +2,7 @@
 
 ## Introduction 
 
-Recommendation systems have played a crucial way in redefining our modern lives in many  
-ways through solving the problem of information overload by searching through a large volume  
-of dynamically generated content to provide personalized services. It is most commonly 
-recognized for video and music services, product recommenders and content recommenders 
-for social media platforms.
+Recommendation systems have played a crucial way in redefining our modern lives in many ways through solving the problem of information overload by searching through a large volume of dynamically generated content to provide personalized services. It is most commonly recognized for video and music services, product recommenders and content recommenders for social media platforms.
 
 During the special period of global pandemic, groceries stores are experiencing an exponential 
 growth in customer orders. Instacart, one of the most popular grocery delivery services 
