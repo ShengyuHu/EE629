@@ -130,11 +130,12 @@ matrix is factorized using SciPy’s SVD. The list of recommended products is ge
 may contain products that already in the user’s basket which needs to be removed before the 
 final recommendation.
 ![14.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/14.png)
-
+![18.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/18.png)
 
 The recall for intersection of U2U and SVD is around 9%. Nearly 1 in 10 products recommended 
 by each system is recommended too by the other for each user. For User 4157 as listed in the 
 above output table, product 47059 is indeed repeated in both recommendations.
+
 
 Example recommendations for User ID 1 using SVD are illustrated above. However, SVD may
 reveal some drawbacks when tackling with implicit data. SVD considers explicit data where the 
