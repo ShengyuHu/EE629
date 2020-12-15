@@ -52,9 +52,14 @@ less than 10 times. Assuming everything is equal, the customer purchasing behavi
 optimal if measured by number of repeated purchases. Perhaps marketing can boost their 
 promotional efforts towards a subset of customers who order less than 16 times but more than 
 9 times, in a hope to close the gap.
+![2.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/2.png)
 
 
-* Order distribution by Department (Appendix C)
+* Order distribution by Department 
+
+Some departments have infrequent sales, which could help eliminating some of the 
+departments from recommending. Produce, snacks and dairy eggs contribute to almost 50% 
+transactions.
 
 
 ## Recommender
