@@ -60,6 +60,7 @@ promotional efforts towards a subset of customers who order less than 16 times b
 Some departments have infrequent sales, which could help eliminating some of the 
 departments from recommending. Produce, snacks and dairy eggs contribute to almost 50% 
 transactions.
+![3.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/3.png)
 
 
 ## Recommender
