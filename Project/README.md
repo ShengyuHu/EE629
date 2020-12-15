@@ -144,9 +144,27 @@ purchased by a user, low values in the utility matrix or a user not buying a pro
 reated as dislike. As the Instacart dataset consists only of implicit feedback in the form of past 
 and current grocery orders, there is a need to robust the approach with, for example,
 Alternating Least Squares.
-
+![16.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/16.png)
 
 Example recommendations for user ID 17 is shown above. There are a few similarities between 
 actual product bought and recommendations. It is might due to that, for example, ‘Select-A-Size
 White Paper Towels’ are a very suitable alternative to ‘Select-A-Size Paper Towels, White, 2 
 Huge Rolls = 5 Regular Rolls Towels/Napkins’.
+
+## Results
+
+A list of products is generated to each Instacart user and a predix of the list is presented as the
+recommended products. It is important to realize that reliable feedbacks regarding which 
+products are disliked are not available, and not purchasing a product can stem form multiple
+different reason. In this case, precision based metrics are not very appropriate for model 
+evaluation. With the test size 0.2, recommendations are generated for every user. As a result, 
+matrix factorization using either SVD or ALS outperforms the baseline model by 2 times better.
+Different number of latent factors are tested as well, and it can be concluded that the accuracy
+of 100-factor SVD is slightly lower than the baseline model probably due to overfitting. 
+According to the neighborhood-based model, users seem to be interested at items that other
+similar users have purchased. Last but not least, Alternating Least Square runs much faster than
+other models because the linear running time is optimized under the settings.
+
+## Discussion & Futher Works
+
+It is an quite interesting area to explore. The evaluation of the recommender systems, even a simple SVD model, performs better than just recommending the popular products. Personalized recommendations based on purchase history are more indicative of Instacart user purchase patterns. However, if new updated data with outliers or missing values are introduced, there will be a cold start problem. In this case, hybrid recommender with, for example, content-based models or deep neural networks will definitely product a better outcome. The ‘Banana Mystery’ is also another topic to discuss for the future works.
