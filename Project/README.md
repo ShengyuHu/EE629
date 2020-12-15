@@ -75,6 +75,8 @@ the busiest day for order placement. The hottest timing for order placement is S
 There seems to be a capped variable (30 days). The most common number of days between
 orders is 11 days. Users in Cluster 1 and 2 tend to have a wider time gap between purchases. 
 Users in cluster 3 and 4 are the most recurrent buyers.
+![6.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/6.png)
+
 
 
 
