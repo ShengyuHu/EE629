@@ -95,9 +95,6 @@ highest in customer preferences.
 ![10.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/10.png)
 ![11.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/11.png)
 
-* Recommended products for ‘chocolate sandwich cookies
-![12.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/12.png)
-
 ## Recommender
 
 ### A. Product Bundle
@@ -105,13 +102,14 @@ highest in customer preferences.
 It usually happens that some products are more often bought together than others. Product 
 bundle can be used to predict which product the customer will buy next. Once a customer adds
 one product to cart, a list of recommended products will be offered to be bought together. 
-
+![13.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/13.png)
 Not surprisingly, bananas are bought mostly with avocado, apples and strawberries. Then a
 simple recommender is generated based on frequencies in the bundles by firstly sorting the
 bigram frequencies in descending order and then returning merely the corresponding product 
 names in the same order. Take chocolate sandwich cookies for example, a recommending list in 
-a size of either 5 or 15 (Appendix H). If a customer adds the cookies into his basket, then 
+a size of either 5 or 15 . If a customer adds the cookies into his basket, then 
 reduced fat milk or semi-sweet chocolate morsels will be recommended to him. 
+![12.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/12.png)
 
 ### B. Neighborhood-based Method
 
@@ -122,6 +120,8 @@ It is a user-to-user recommender. After figuring out the cluster he belongs to, 
 are generated based on cosine similarities, and the similarity is tested through checking user 
 purchasing history. Top similar users of User ID 1 give a recall value of 0.333 indicating a high 
 similarity. Product recommendations are then generated.
+
+
 
 ### C. Latent-factor Method
 
