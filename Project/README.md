@@ -76,7 +76,13 @@ There seems to be a capped variable (30 days). The most common number of days be
 orders is 11 days. Users in Cluster 1 and 2 tend to have a wider time gap between purchases. 
 Users in cluster 3 and 4 are the most recurrent buyers.
 ![6.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/6.png)
+![7.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/7.png)
 
+* Re-order ratio by Department
+
+As expected, produce and diary eggs enjoyed the highest re-order ratio whereas pantry was 
+experiencing the worst situation. Although snack and beverage have similar proportion of order 
+sales, beverage has a positive re-order ratio while snack has a negative one.
 
 
 
