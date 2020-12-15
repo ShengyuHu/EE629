@@ -93,6 +93,9 @@ clusters. Among all  products, bananas,  strawberries, baby spinach and avocado 
 highest in customer preferences.
 ![9.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/9.png)
 ![10.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/10.png)
+![11.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/11.png)
+
+* Recommended products for ‘chocolate sandwich cookies
 
 
 
