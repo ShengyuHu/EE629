@@ -83,6 +83,15 @@ Users in cluster 3 and 4 are the most recurrent buyers.
 As expected, produce and diary eggs enjoyed the highest re-order ratio whereas pantry was 
 experiencing the worst situation. Although snack and beverage have similar proportion of order 
 sales, beverage has a positive re-order ratio while snack has a negative one.
+![8.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/8.png)
+
+* Top Product/Department/Aisle
+
+Clearly, fresh fruits and veggies are mostly purchased and most of the popular products are 
+organic. There are no obvious differences of the most popular products among different 
+clusters. Among all  products, bananas,  strawberries, baby spinach and avocado rank the 
+highest in customer preferences.
+
 
 
 
