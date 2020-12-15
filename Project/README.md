@@ -135,7 +135,7 @@ final recommendation.
 The recall for intersection of U2U and SVD is around 9%. Nearly 1 in 10 products recommended 
 by each system is recommended too by the other for each user. For User 4157 as listed in the 
 above output table, product 47059 is indeed repeated in both recommendations.
-
+![15.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/15.png)
 
 Example recommendations for User ID 1 using SVD are illustrated above. However, SVD may
 reveal some drawbacks when tackling with implicit data. SVD considers explicit data where the 
@@ -144,6 +144,7 @@ purchased by a user, low values in the utility matrix or a user not buying a pro
 reated as dislike. As the Instacart dataset consists only of implicit feedback in the form of past 
 and current grocery orders, there is a need to robust the approach with, for example,
 Alternating Least Squares.
+
 
 Example recommendations for user ID 17 is shown above. There are a few similarities between 
 actual product bought and recommendations. It is might due to that, for example, ‘Select-A-Size
