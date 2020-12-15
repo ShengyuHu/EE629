@@ -120,8 +120,7 @@ It is a user-to-user recommender. After figuring out the cluster he belongs to, 
 are generated based on cosine similarities, and the similarity is tested through checking user 
 purchasing history. Top similar users of User ID 1 give a recall value of 0.333 indicating a high 
 similarity. Product recommendations are then generated.
-
-
+![17.png](https://github.com/ShengyuHu/EE629/blob/master/Project/Images/17.png)
 
 ### C. Latent-factor Method
 
@@ -130,9 +129,11 @@ factorization. SVD factorization is applied and I sticked with the example user 
 matrix is factorized using SciPy’s SVD. The list of recommended products is generated but it 
 may contain products that already in the user’s basket which needs to be removed before the 
 final recommendation.
+
 The recall for intersection of U2U and SVD is around 9%. Nearly 1 in 10 products recommended 
 by each system is recommended too by the other for each user. For User 4157 as listed in the 
 above output table, product 47059 is indeed repeated in both recommendations.
+
 Example recommendations for User ID 1 using SVD are illustrated above. However, SVD may
 reveal some drawbacks when tackling with implicit data. SVD considers explicit data where the 
 user has rated both products they like and dislike, while provided the count of product 
@@ -140,6 +141,7 @@ purchased by a user, low values in the utility matrix or a user not buying a pro
 reated as dislike. As the Instacart dataset consists only of implicit feedback in the form of past 
 and current grocery orders, there is a need to robust the approach with, for example,
 Alternating Least Squares.
+
 Example recommendations for user ID 17 is shown above. There are a few similarities between 
 actual product bought and recommendations. It is might due to that, for example, ‘Select-A-Size
 White Paper Towels’ are a very suitable alternative to ‘Select-A-Size Paper Towels, White, 2 
