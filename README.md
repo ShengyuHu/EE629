@@ -1,5 +1,5 @@
 # EE629-IOT
-This repository is for  weekly reports, codes and projects.
+This repository is for  weekly reports, code and projects.
 
 Final project: **Recommendation system for Instacart**.
 
@@ -35,7 +35,7 @@ Final project: **Recommendation system for Instacart**.
 
 [2020-10-01] Try some labs discussed in the class and write Python code for some of the labs.
 
-[2020-10-03] Practice writing some Python Codes in order to improve my program writing ability and strengthen my understanding of Python.
+[2020-10-03] Practice writing some Python Code in order to improve my program writing ability and strengthen my understanding of Python.
 
 ## Weekly Report 4 (10.05-10.11)
 
@@ -47,7 +47,7 @@ Final project: **Recommendation system for Instacart**.
 
 ## Weekly Report 5 (10.12-10.18)
 
-[2020-10-13] Summarize previous labs and codes, review what have learned in the class.
+[2020-10-13] Summarize previous labs and code, review what have learned in the class.
 
 [2020-10-15] Read and install the Alpine Linux on my VirtualBox, install GNOME Desktop Environment and Docker.
 
@@ -55,7 +55,7 @@ Final project: **Recommendation system for Instacart**.
 
 ## Weekly Report 6 (10.19-10.25)
 
-[2020-10-20] Summarize previous labs and codes, review what have learned in the class.
+[2020-10-20] Summarize previous labs and code, review what have learned in the class.
 
 [2020-10-22] Try to solve some Python problems in order to improve my Python programming ability.
 
@@ -63,7 +63,7 @@ Final project: **Recommendation system for Instacart**.
 
 ## Weekly Report 7 (10.26-11.01)
 
-[2020-10-27] Summarize previous labs and codes, review what have learned in the class.
+[2020-10-27] Summarize previous labs and code, review what have learned in the class.
 
 [2020-10-29] Study some related projects and determine the project to be completed.
 
@@ -71,7 +71,7 @@ Final project: **Recommendation system for Instacart**.
 
 ## Weekly Report 8 (11.02-11.08)
 
-[2020-11-03] Summarize previous labs and codes, review what have learned in the class.
+[2020-11-03] Summarize previous labs and code, review what have learned in the class.
 
 [2020-11-05] Analyze the data to be used in the project and write the code about them.
 
